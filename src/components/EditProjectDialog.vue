@@ -84,6 +84,7 @@
         <v-switch
           v-model="isPublic"
           :label="$t('editor.edit-project-info-dialog.public')"
+          color="primary"
         />
       </v-card-text>
 

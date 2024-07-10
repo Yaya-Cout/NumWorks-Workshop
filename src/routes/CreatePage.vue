@@ -51,6 +51,7 @@
           <v-switch
             v-model="isPublic"
             :label="$t('create.is-public')"
+            color="primary"
           />
 
           <v-btn

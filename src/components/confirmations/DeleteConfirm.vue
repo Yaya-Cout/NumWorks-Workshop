@@ -19,6 +19,7 @@
         <v-switch
           v-model="dontShowAgain"
           :label="$t('editor.delete-confirm.dont-show-again')"
+          color="primary"
           hide-details
         />
 
