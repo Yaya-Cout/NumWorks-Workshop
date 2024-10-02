@@ -55,7 +55,7 @@ const uploadProject = async (files: Script[]) => {
       // (Or mark the file which have the name of the project to
       // be autoImported)
       autoImport: true,
-      code: file.content.normalize('NFKD'),
+      code: file.content.normalize('NFKD').replaceAll("\r\n",'\n'),
     });
   }
 
