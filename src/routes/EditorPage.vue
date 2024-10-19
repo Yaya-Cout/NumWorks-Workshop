@@ -7,7 +7,7 @@
       fluid
       class="fill-height"
     >
-      <v-row class="mt-0 fill-height">
+      <v-row class="mt-0 fill-height no-wrap">
         <div
           class="bg-background elevation-3 rounded-lg ml-4 pa-1"
           style="width: 480px"
@@ -184,4 +184,8 @@ const updateProject = (NewProject: Project) => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.no-wrap {
+  flex-wrap: nowrap;
+}
+</style>
