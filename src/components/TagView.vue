@@ -14,7 +14,6 @@
 <script setup lang="ts">
 import { watchEffect, ref } from 'vue';
 import { Tag } from '../types';
-import { VSkeletonLoader } from 'vuetify/lib/labs/components.mjs';
 
 const props = defineProps({
   tag: {

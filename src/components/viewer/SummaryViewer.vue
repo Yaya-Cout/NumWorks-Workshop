@@ -185,7 +185,6 @@ import { watch, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { Project } from '../../types';
 import { useAPIStore } from '../../stores/api';
-import { VSkeletonLoader } from 'vuetify/lib/labs/components.mjs';
 import UserPreview from '../UserPreview.vue';
 import UploadProject from '../UploadProject.vue';
 import DeleteProject from '../DeleteProject.vue';

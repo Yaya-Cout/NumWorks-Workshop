@@ -71,7 +71,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
 import { Project } from '../types';
-import { VSkeletonLoader } from 'vuetify/lib/labs/components.mjs';
 import SizeView from './viewer/SizeView.vue';
 
 const tagsNames = ref(["test"] as string[]);

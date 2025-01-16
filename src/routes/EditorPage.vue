@@ -91,7 +91,6 @@ import { useRoute, useRouter } from 'vue-router';
 import { useAPIStore } from '../stores/api';
 import { useGlobalStore } from '../stores/global';
 import { Project, Tag } from '../types';
-import { VSkeletonLoader } from 'vuetify/lib/labs/components.mjs';
 import DeviceInterface from '../components/DeviceInterface.vue';
 import EditProjectDialog from '../components/EditProjectDialog.vue';
 import MonacoEditor from '../components/MonacoEditor.vue';

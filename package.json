@@ -30,7 +30,7 @@
     "roboto-fontface": "*",
     "showdown": "^2.1.0",
     "showdown-xss-filter": "^0.2.0",
-    "upsilon.js": "^1.4.0",
+    "upsilon.js": "^1.4.2",
     "uuid": "^9.0.1",
     "vite": "^3.2.11",
     "vite-plugin-checker": "^0.6.2",

@@ -25,7 +25,6 @@
 import { ref, watchEffect } from 'vue';
 import { User } from '../../types';
 import AvatarView from '../AvatarView.vue';
-import { VSkeletonLoader } from 'vuetify/lib/labs/components.mjs';
 
 const props = defineProps({
   user: {
