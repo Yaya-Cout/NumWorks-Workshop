@@ -1,10 +1,10 @@
 # Upsilon Workshop
 
 Server Status:
-![Server Status](https://healthchecks.io/badge/120fbda1-0064-4090-9de9-8e5d979e84bf/OTdARQCd-2/Server.svg)
+![Server Status](https://healthchecks.io/b/2/ce2db9c9-9135-486a-b50b-b4366af62cdb.svg)
 
 Global Server Status (including the backups and the disk checks):
-![Global Server Status](https://healthchecks.io/badge/120fbda1-0064-4090-9de9-8e5d979e84bf/0qNkKR3z-2.svg)
+![Global Server Status](https://healthchecks.io/badge/29aaba5b-4fff-45f8-a6a3-b7a087c6e9c2/tk0VvjLE-2.svg)
 
 Upsilon Workshop is a free software project that aims to provide a complete
 collaborative platform to create Python projects for the Numworks calculator.
