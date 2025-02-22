@@ -193,7 +193,9 @@ const createModels = () => {
       continue;
     }
     // If it doesn't exist, create it
-    models.push(monaco.editor.createModel(script.content, "python", monaco.Uri.from({ scheme: "file", path: props.project.uuid + script.title })));
+    let createdModel = monaco.editor.createModel(script.content, "python", monaco.Uri.from({ scheme: "file", path: props.project.uuid + script.title }))
+    createdModel.updateOptions({ tabSize: 2 });
+    models.push(createdModel);
   }
   setTab(tab.value);
 };
